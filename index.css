@@ -1,0 +1,97 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.nav-link-round{
+    width: 
+}
+.user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+    margin-top: 30px;
+}
+
+button{
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+input{
+    width: 600px;
+    height: 42px;
+    border: 1px solid gray;
+    opacity: 0.5;
+    border-radius: 32px;
+}
+
+.action-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#action-button{
+    width: 120px;
+    height: 32px;
+    background-color: rgba(248, 248, 248, 0.986);
+    opacity: 0.5px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.google-lang{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 0px 10px;
+    margin-right: 20px;
+    background-color: gray;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
