@@ -1,0 +1,1 @@
+this is my first html and css project. i understand this might be unprofessional but i'm just starting out and i hope i will be better very soon.

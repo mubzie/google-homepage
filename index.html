@@ -4,43 +4,51 @@
     <meta charset="UTF-8">
     <title>google homepage</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
 </head>
-<body>            
-<nav class="nav">
-    <a class="nav-link" href="#">Gmail</a>
-    <a class="nav-link" href="#">Images</a>
+<body>  
+<div class="main-container">
+ <div class="main-header">         
+ <nav class="nav">
+    <a class="nav-link" id="link" href="#">Gmail</a>
+    <a class="nav-link" id="link" href="#">Images</a>
     <a class="nav-link" href="#"><button class="button-app">sign up</button></a>
     <a class="nav-link-round" href="#"><img class="user-profile"  src="juno.jpg" alt=""></a>
-</nav>
-<main>
+ </nav>
+ </div> 
+ <main>
     <img class="logo" src="google.png" alt="">
     <div class="container">
+        <!-- <img class="search-icon" src="search-icon.png"> -->
         <input class="search-bar" type="text">
     </div>
     <div class="action-button">
-        <a class="first-button" href="#"><button id="action-button">Google Search</button></a>
-        <a class="second-button" href="#"><button id="action-button">I'm Feeling Lucky</button></a>
+        <a href="#"><button id="action-button">Google Search</button></a>
+        <a href="#"><button id="action-button">I'm Feeling Lucky</button></a>
     </div>
     <div class="google-lang">
         Google offered in:
-        <a href="#">Hausa</a>
-        <a href="#">Igbo</a>
-        <a href="#">Ede Yoruba</a>
-        <a href="#">Nigeria Pidgin</a>
+        <a id="lang" href="#">Hausa</a>
+        <a id="lang" href="#">Igbo</a>
+        <a id="lang" href="#">Ede Yoruba</a>
+        <a id="lang" href="#">Nigeria Pidgin</a>
     </div>
-</main>
-<div class="footer">
-    <div class="first-footer">
-        <a href="#">About</a>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
+ </main>
+ <div class="main-footer">
+ <div class="footer">
+    <div id="space" class="left-footer">
+        <a class="f-link" href="#">About</a>
+        <a class="f-link" href="#">Advertising</a>
+        <a class="f-link" href="#">Business</a>
+        <a class="f-link" href="#">How Search Works</a>
     </div> 
-    <div class="second-footer">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+    <div id="space" class="right-footer">
+        <a class="f-link" href="#">Privacy</a>
+        <a class="f-link" href="#">Terms</a>
+        <a class="f-link" href="#">Settings</a>
     </div> 
+ </div>
+ </div>
 </div>
 </body> 
 </html>
